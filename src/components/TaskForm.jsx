@@ -1,10 +1,12 @@
 import React from 'react'
 
+import "./TaskForm.css";
+
 const TaskForm = () => {
   return (
     <header className='app_header'>
         <form>
-        <input type="text" placeholder='Enter Task' className='task_input'/>
+        <input type="text" placeholder='Enter your task' className='task_input'/>
         <div className='task_form'>
             <div className='task_form_buttons'>
             <button className='tag'>Html</button>
