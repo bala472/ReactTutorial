@@ -1,10 +1,3 @@
-// import React from "react";
-
-// function Card(){
-//     return <h1>Completed Sucessfully !!!</h1>
-// }
-
-// export default Card;
 import React from 'react'
 
 const Card = () => {

@@ -1,6 +1,7 @@
 import React from 'react'
 
-import "./TaskForm.css";
+import "./TaskForm.css"
+import Tag from './Tag.jsx';
 
 const TaskForm = () => {
   return (
@@ -9,10 +10,10 @@ const TaskForm = () => {
         <input type="text" placeholder='Enter your task' className='task_input'/>
         <div className='task_form'>
             <div className='task_form_buttons'>
-            <button className='tag'>Html</button>
-            <button className='tag'>Css</button>
-            <button className='tag'>JavaScript</button>
-            <button className='tag'>Java</button>
+              <Tag TagName="HTML"/>
+              <Tag TagName="CSS"/>
+              <Tag TagName="JavaScript"/>
+              <Tag TagName="React"/> 
             </div>
         <div className='task_form_submit'>
         <select >
